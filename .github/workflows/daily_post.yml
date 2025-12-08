@@ -1,9 +1,9 @@
-name: Daily Quantum Pulse
+name: Daily AI Consultant Post
 
 on:
   schedule:
-    # Runs at 06:30 UTC everyday (12:00 PM IST)
-    - cron: '30 6 * * *'
+    # Runs at 12:30 UTC everyday (6:00 PM IST)
+    - cron: '30 12 * * *'
   workflow_dispatch: # Allows manual trigger
 
 jobs:

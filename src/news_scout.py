@@ -2,12 +2,12 @@ import feedparser
 from datetime import datetime, timedelta
 import time
 
-# Google News RSS URL for specific query
-RSS_URL = "https://news.google.com/rss/search?q=National+Quantum+Mission+India+OR+Department+of+Science+and+Technology+Quantum&hl=en-IN&gl=IN&ceid=IN:en"
+# Google News RSS URL for AI industry news
+RSS_URL = "https://news.google.com/rss/search?q=Artificial+Intelligence+OR+Machine+Learning+OR+AI+Consulting+OR+Generative+AI&hl=en-US&gl=US&ceid=US:en"
 
 def fetch_news(hours=168): # Changed default to 7 days (168 hours)
     """
-    Fetches news from Google News RSS feed about National Quantum Mission.
+    Fetches news from Google News RSS feed about AI industry and consulting.
     Returns a list of dictionaries containing title, link, and published date.
     Filters articles published within the last `hours`.
     """

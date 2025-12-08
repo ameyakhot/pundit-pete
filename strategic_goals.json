@@ -1,0 +1,60 @@
+{
+  "primary_goals": [
+    {
+      "goal": "establish_ai_expertise",
+      "priority": "high",
+      "target_topics": [
+        "AI",
+        "Machine Learning",
+        "LLMs",
+        "Generative AI",
+        "Transformer Architecture",
+        "Prompt Engineering",
+        "Neural Networks"
+      ],
+      "target_engagement": 0.15,
+      "description": "Establish deep expertise in AI and machine learning technologies"
+    },
+    {
+      "goal": "build_consulting_authority",
+      "priority": "medium",
+      "target_topics": [
+        "AI Strategy",
+        "Business Impact",
+        "ROI",
+        "Implementation",
+        "Digital Transformation",
+        "AI Adoption"
+      ],
+      "target_engagement": 0.12,
+      "description": "Build authority as an AI consultant who understands business impact"
+    },
+    {
+      "goal": "simplify_complex_concepts",
+      "priority": "high",
+      "target_topics": [
+        "AI Education",
+        "Technical Explanations",
+        "Concept Breakdowns"
+      ],
+      "target_engagement": 0.18,
+      "description": "Become known for making complex AI concepts accessible to everyone"
+    }
+  ],
+  "content_themes": [
+    "explanation",
+    "business_impact",
+    "practical_applications",
+    "industry_trends",
+    "technical_deep_dive",
+    "case_studies"
+  ],
+  "storytelling_frameworks": [
+    "Hook-Story-Lesson",
+    "Before/After",
+    "Problem-Solution",
+    "Hero's Journey",
+    "Pixar Storytelling"
+  ]
+}
+
