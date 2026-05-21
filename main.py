@@ -1,5 +1,5 @@
 def main():
-    print("Hello from qfoundry-npm-agent!")
+    print("Hello from pundit-pete!")
 
 
 if __name__ == "__main__":

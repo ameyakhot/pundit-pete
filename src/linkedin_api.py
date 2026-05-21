@@ -209,7 +209,7 @@ def verify_organization_access(access_token, org_id):
 def post_to_linkedin(text, article_url=None, article_title=None, use_company_page=True):
     """
     Publishes a text post (share) to LinkedIn.
-    If use_company_page is True, posts to the Company Page (QFoundry).
+    If use_company_page is True, posts to your LinkedIn Company Page.
     Otherwise, posts to personal profile.
     """
     access_token = get_access_token()
@@ -240,7 +240,7 @@ def post_to_linkedin(text, article_url=None, article_title=None, use_company_pag
                 "[WARNING] Could not verify admin access, but attempting post anyway..."
             )
             print("[INFO] If this fails, make sure you:")
-            print("  1. Are an admin of the QFoundry page")
+            print("  1. Are an admin of the company page")
             print("  2. Have re-authenticated with w_organization_social scope")
             # Don't return False - let the actual API call determine if we have access
 

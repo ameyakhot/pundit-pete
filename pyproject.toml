@@ -1,7 +1,7 @@
 [project]
-name = "linkedin-ai-qfoundry"
+name = "pundit-pete"
 version = "0.1.0"
-description = "Add your description here"
+description = "Daily LinkedIn thought-leadership poster for AI consultants"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

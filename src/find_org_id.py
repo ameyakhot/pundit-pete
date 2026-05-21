@@ -53,7 +53,7 @@ try:
                 pass
         
         print("\n" + "=" * 60)
-        print("ACTION: Copy the Organization ID (numeric) for QFoundry")
+        print("ACTION: Copy the Organization ID (numeric) for your company page")
         print("and add it to your .env file as: LINKEDIN_ORG_ID=123456")
         print("=" * 60)
     else:
