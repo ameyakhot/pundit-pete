@@ -1,6 +1,8 @@
-# AI Consultant Personal Branding System
+# pundit-pete
 
-An automated LinkedIn posting system that helps AI consultants build their personal brand by posting daily thought leadership content. The system generates engaging posts that explain complex AI concepts in simple terms, establishing expertise through clear, accessible explanations.
+Daily LinkedIn thought-leadership poster for AI consultants. Scouts AI industry news, drafts posts via Groq (Llama 3 70B), and publishes to your LinkedIn profile at 6 PM IST every day.
+
+The system generates engaging posts that explain complex AI concepts in simple terms, establishing expertise through clear, accessible explanations.
 
 ## Overview
 
@@ -35,8 +37,8 @@ This system automatically:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd linkedin-ai-qfoundry
+   git clone https://github.com/ameyakhot/pundit-pete.git
+   cd pundit-pete
    ```
 
 2. **Install dependencies using uv**:
@@ -140,7 +142,7 @@ The system generates posts that:
 ## Project Structure
 
 ```
-linkedin-ai-qfoundry/
+pundit-pete/
 ├── src/
 │   ├── news_scout.py          # Fetches AI industry news
 │   ├── content_planner.py     # Manages content backlog and selection
